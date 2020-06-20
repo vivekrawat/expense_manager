@@ -52,7 +52,7 @@ function janact(){
     for(var i=0;i<jan.length;i++)
     {
         let dyna = document.createElement("div");
-        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+jan[i].id+'</div><div class="col-md-6">price:'+jan[i].description+'</div><div class="col-md-3">'+jan[i].price+'</div></div>';
+        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+jan[i].id+'</div><div class="col-md-6">'+jan[i].description+'</div><div class="col-md-3">'+jan[i].price+'</div></div>';
         document.getElementById("disp").appendChild(dyna);
     }
     document.getElementById("entry").innerHTML='<div> <form  name="hero" ><div class="row"><div class="col-lg-8"><div class="row"><div class="col-md-8"><input class="form-control" type="text" value="" placeholder="Expense description" name="desp" required></div><div class="col-md-4"><input class="form-control"  type="number" name="price"placeholder="enter price"></div></div></div><div class="col-lg-4"><input type="button" onclick="janadd()" class="btn btn-info" value="add expense"></div></div></form></div>';
@@ -99,7 +99,7 @@ function febact(){
     for(var i=0;i<feb.length;i++)
     {
         let dyna = document.createElement("div");
-        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+feb[i].id+'</div><div class="col-md-6">price:'+feb[i].description+'</div><div class="col-md-3">'+feb[i].price+'</div></div>';
+        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+feb[i].id+'</div><div class="col-md-6">'+feb[i].description+'</div><div class="col-md-3">'+feb[i].price+'</div></div>';
         document.getElementById("disp").appendChild(dyna);
     }
     document.getElementById("entry").innerHTML='<div> <form  name="hero" ><div class="row"><div class="col-lg-8"><div class="row"><div class="col-md-8"><input class="form-control" type="text" value="" placeholder="Expense description" name="desp" required></div><div class="col-md-4"><input class="form-control"  type="number" name="price"placeholder="enter price"></div></div></div><div class="col-lg-4"><input type="button" onclick="febadd()" class="btn btn-info" value="add expense"></div></div></form></div>';
@@ -146,7 +146,7 @@ function maract(){
     for(var i=0;i<mar.length;i++)
     {
         let dyna = document.createElement("div");
-        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+mar[i].id+'</div><div class="col-md-6">price:'+mar[i].description+'</div><div class="col-md-3">'+mar[i].price+'</div></div>';
+        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+mar[i].id+'</div><div class="col-md-6">'+mar[i].description+'</div><div class="col-md-3">'+mar[i].price+'</div></div>';
         document.getElementById("disp").appendChild(dyna);
     }
     document.getElementById("entry").innerHTML='<div> <form  name="hero" ><div class="row"><div class="col-lg-8"><div class="row"><div class="col-md-8"><input class="form-control" type="text" value="" placeholder="Expense description" name="desp" required></div><div class="col-md-4"><input class="form-control"  type="number" name="price"placeholder="enter price"></div></div></div><div class="col-lg-4"><input type="button" onclick="maradd()" class="btn btn-info" value="add expense"></div></div></form></div>';
@@ -193,7 +193,7 @@ function apract(){
     for(var i=0;i<apr.length;i++)
     {
         let dyna = document.createElement("div");
-        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+apr[i].id+'</div><div class="col-md-6">price:'+apr[i].description+'</div><div class="col-md-3">'+apr[i].price+'</div></div>';
+        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+apr[i].id+'</div><div class="col-md-6">'+apr[i].description+'</div><div class="col-md-3">'+apr[i].price+'</div></div>';
         document.getElementById("disp").appendChild(dyna);
     }
     document.getElementById("entry").innerHTML='<div> <form  name="hero" ><div class="row"><div class="col-lg-8"><div class="row"><div class="col-md-8"><input class="form-control" type="text" value="" placeholder="Expense description" name="desp" required></div><div class="col-md-4"><input class="form-control"  type="number" name="price"placeholder="enter price"></div></div></div><div class="col-lg-4"><input type="button" onclick="apradd()" class="btn btn-info" value="add expense"></div></div></form></div>';
@@ -240,7 +240,7 @@ function mayact(){
     for(var i=0;i<may.length;i++)
     {
         let dyna = document.createElement("div");
-        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+may[i].id+'</div><div class="col-md-6">price:'+may[i].description+'</div><div class="col-md-3">'+may[i].price+'</div></div>';
+        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+may[i].id+'</div><div class="col-md-6">'+may[i].description+'</div><div class="col-md-3">'+may[i].price+'</div></div>';
         document.getElementById("disp").appendChild(dyna);
     }
     document.getElementById("entry").innerHTML='<div> <form  name="hero" ><div class="row"><div class="col-lg-8"><div class="row"><div class="col-md-8"><input class="form-control" type="text" value="" placeholder="Expense description" name="desp" required></div><div class="col-md-4"><input class="form-control"  type="number" name="price"placeholder="enter price"></div></div></div><div class="col-lg-4"><input type="button" onclick="mayadd()" class="btn btn-info" value="add expense"></div></div></form></div>';
@@ -287,7 +287,7 @@ function juneact(){
     for(var i=0;i<june.length;i++)
     {
         let dyna = document.createElement("div");
-        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+june[i].id+'</div><div class="col-md-6">price:'+june[i].description+'</div><div class="col-md-3">'+june[i].price+'</div></div>';
+        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+june[i].id+'</div><div class="col-md-6">'+june[i].description+'</div><div class="col-md-3">'+june[i].price+'</div></div>';
         document.getElementById("disp").appendChild(dyna);
     }
     document.getElementById("entry").innerHTML='<div> <form  name="hero" ><div class="row"><div class="col-lg-8"><div class="row"><div class="col-md-8"><input class="form-control" type="text" value="" placeholder="Expense description" name="desp" required></div><div class="col-md-4"><input class="form-control"  type="number" name="price"placeholder="enter price"></div></div></div><div class="col-lg-4"><input type="button" onclick="juneadd()" class="btn btn-info" value="add expense"></div></div></form></div>';
@@ -334,7 +334,7 @@ function julact(){
     for(var i=0;i<jul.length;i++)
     {
         let dyna = document.createElement("div");
-        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+jul[i].id+'</div><div class="col-md-6">price:'+jul[i].description+'</div><div class="col-md-3">'+jul[i].price+'</div></div>';
+        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+jul[i].id+'</div><div class="col-md-6">'+jul[i].description+'</div><div class="col-md-3">'+jul[i].price+'</div></div>';
         document.getElementById("disp").appendChild(dyna);
     }
     document.getElementById("entry").innerHTML='<div> <form  name="hero" ><div class="row"><div class="col-lg-8"><div class="row"><div class="col-md-8"><input class="form-control" type="text" value="" placeholder="Expense description" name="desp" required></div><div class="col-md-4"><input class="form-control"  type="number" name="price"placeholder="enter price"></div></div></div><div class="col-lg-4"><input type="button" onclick="juladd()" class="btn btn-info" value="add expense"></div></div></form></div>';
@@ -381,7 +381,7 @@ function augact(){
     for(var i=0;i<aug.length;i++)
     {
         let dyna = document.createElement("div");
-        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+aug[i].id+'</div><div class="col-md-6">price:'+aug[i].description+'</div><div class="col-md-3">'+aug[i].price+'</div></div>';
+        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+aug[i].id+'</div><div class="col-md-6">'+aug[i].description+'</div><div class="col-md-3">'+aug[i].price+'</div></div>';
         document.getElementById("disp").appendChild(dyna);
     }
     document.getElementById("entry").innerHTML='<div> <form  name="hero" ><div class="row"><div class="col-lg-8"><div class="row"><div class="col-md-8"><input class="form-control" type="text" value="" placeholder="Expense description" name="desp" required></div><div class="col-md-4"><input class="form-control"  type="number" name="price"placeholder="enter price"></div></div></div><div class="col-lg-4"><input type="button" onclick="augadd()" class="btn btn-info" value="add expense"></div></div></form></div>';
@@ -428,7 +428,7 @@ function septact(){
     for(var i=0;i<sept.length;i++)
     {
         let dyna = document.createElement("div");
-        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+sept[i].id+'</div><div class="col-md-6">price:'+sept[i].description+'</div><div class="col-md-3">'+sept[i].price+'</div></div>';
+        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+sept[i].id+'</div><div class="col-md-6">'+sept[i].description+'</div><div class="col-md-3">'+sept[i].price+'</div></div>';
         document.getElementById("disp").appendChild(dyna);
     }
     document.getElementById("entry").innerHTML='<div> <form  name="hero" ><div class="row"><div class="col-lg-8"><div class="row"><div class="col-md-8"><input class="form-control" type="text" value="" placeholder="Expense description" name="desp" required></div><div class="col-md-4"><input class="form-control"  type="number" name="price"placeholder="enter price"></div></div></div><div class="col-lg-4"><input type="button" onclick="septadd()" class="btn btn-info" value="add expense"></div></div></form></div>';
@@ -475,7 +475,7 @@ function octact(){
     for(var i=0;i<oct.length;i++)
     {
         let dyna = document.createElement("div");
-        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+oct[i].id+'</div><div class="col-md-6">price:'+oct[i].description+'</div><div class="col-md-3">'+oct[i].price+'</div></div>';
+        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+oct[i].id+'</div><div class="col-md-6">'+oct[i].description+'</div><div class="col-md-3">'+oct[i].price+'</div></div>';
         document.getElementById("disp").appendChild(dyna);
     }
     document.getElementById("entry").innerHTML='<div> <form  name="hero" ><div class="row"><div class="col-lg-8"><div class="row"><div class="col-md-8"><input class="form-control" type="text" value="" placeholder="Expense description" name="desp" required></div><div class="col-md-4"><input class="form-control"  type="number" name="price"placeholder="enter price"></div></div></div><div class="col-lg-4"><input type="button" onclick="octadd()" class="btn btn-info" value="add expense"></div></div></form></div>';
@@ -523,7 +523,7 @@ function novact(){
     for(var i=0;i<nov.length;i++)
     {
         let dyna = document.createElement("div");
-        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+nov[i].id+'</div><div class="col-md-6">price:'+nov[i].description+'</div><div class="col-md-3">'+nov[i].price+'</div></div>';
+        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+nov[i].id+'</div><div class="col-md-6">'+nov[i].description+'</div><div class="col-md-3">'+nov[i].price+'</div></div>';
         document.getElementById("disp").appendChild(dyna);
     }
     document.getElementById("entry").innerHTML='<div> <form  name="hero" ><div class="row"><div class="col-lg-8"><div class="row"><div class="col-md-8"><input class="form-control" type="text" value="" placeholder="Expense description" name="desp" required></div><div class="col-md-4"><input class="form-control"  type="number" name="price"placeholder="enter price"></div></div></div><div class="col-lg-4"><input type="button" onclick="novadd()" class="btn btn-info" value="add expense"></div></div></form></div>';
@@ -569,7 +569,7 @@ function decact(){
     for(var i=0;i<dec.length;i++)
     {
         let dyna = document.createElement("div");
-        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+dec[i].id+'</div><div class="col-md-6">price:'+dec[i].description+'</div><div class="col-md-3">'+dec[i].price+'</div></div>';
+        dyna.innerHTML = '<div class="row dyna"> <div class="col-md-3">id:'+dec[i].id+'</div><div class="col-md-6">'+dec[i].description+'</div><div class="col-md-3">'+dec[i].price+'</div></div>';
         document.getElementById("disp").appendChild(dyna);
     }
     document.getElementById("entry").innerHTML='<div> <form  name="hero" ><div class="row"><div class="col-lg-8"><div class="row"><div class="col-md-8"><input class="form-control" type="text" value="" placeholder="Expense description" name="desp" required></div><div class="col-md-4"><input class="form-control"  type="number" name="price"placeholder="enter price"></div></div></div><div class="col-lg-4"><input type="button" onclick="decadd()" class="btn btn-info" value="add expense"></div></div></form></div>';
